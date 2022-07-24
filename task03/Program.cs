@@ -20,6 +20,10 @@
     return matrix;
 }
 
+int[, ] matrix = new int[3, 3];
+matrix = CreateMatrix(matrix);
+AvgMatrix(matrix);
+
 
 void AvgMatrix(int[, ] matrix)
 {
